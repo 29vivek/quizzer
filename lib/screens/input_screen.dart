@@ -54,7 +54,6 @@ class InputScreenState extends State<InputScreen> {
                           '${quiz.number}',
                           style: TextStyle(
                             fontSize: 16.0,
-                            fontWeight: FontWeight.w300,
                           ),
                         )
                       ),
