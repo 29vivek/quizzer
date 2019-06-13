@@ -54,12 +54,12 @@ class InputScreenState extends State<InputScreen> {
                           '${quiz.number}',
                           style: TextStyle(
                             fontSize: 16.0,
-                            fontWeight: FontWeight.w100,
+                            fontWeight: FontWeight.w300,
                           ),
                         )
                       ),
                       Padding(
-                        padding: EdgeInsets.only(right: 8.0, bottom: 16.0, left: 8.0),
+                        padding: EdgeInsets.only(right: 6.0, bottom: 16.0, left: 6.0),
                         child: Slider(
                           value: quiz.number.toDouble(),
                           min: 10,
